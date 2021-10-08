@@ -3,9 +3,9 @@ const aws = require("aws-sdk");
 const s3 = new aws.S3();
 
 /** !!!!!!!!!!!!!!!!!!!!!!!!!! 버킷 이름 수정 !!!!!!!!!!!!!!!!!!!!!!!!! */
-const Bucket = "버킷 이름 넣기";
+const Bucket = "plz_rename_bucket";
 const transforms = [
-    { name: "w_490", width: 490 },
+    { name: "w_500", width: 500 },
 ];
 
 exports.handler = async (event, context, callback) => {
