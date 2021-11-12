@@ -1,4 +1,5 @@
-# s3-upload-image-lambda-function
+# aws-s3-image-upload-lambda-function-nodejs-14.x
+
 This is a Image Uploads and Image Re-sizing lambda function.
 
 # How to use
